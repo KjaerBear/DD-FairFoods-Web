@@ -3,64 +3,101 @@
     padding: 0;
   }
 body{
-    background-color: #FFF;
-    margin:0;
+    background-color: #67696e;
+    background-image: url('Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 ul{
     list-style-type: none;
-    margin:0;
-    padding:0;
     overflow:hidden;
 }
 
 .navigation{
     width: 100%;
     background-color: #093acc;
-    padding: 10px 0px;
+    padding: 10px 0;
+    display:flex;
+    justify-content: center;  
+    border-bottom: 4px solid rgb(220, 0, 0); 
+}
 
-}
-.navigation li{
-    float:left;
-}
 
 .navigation li a{
     font-size: 18px;
-    padding: 10px 45px;
-    margin:0;
+    margin: 10px 0;
+    padding: 0 40px;
     background-color: #093acc;
     color: white;
-    border-right: 1px solid black;
     text-decoration: none;
-    color:white;
 }
 
 .navigation li a:hover{
-    background-color: #042b9e;
+    color: black;
+}
+.right_border{
+    border-right: 1px solid black;
 }
 
+/* Header */
 h1 {
     background-color: #093acc;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     color: red;
-    font-size: 50px;
+    font-size: 60px;
     -webkit-text-stroke: 1px black; 
     text-shadow: 3px 3px 2px #FFF;
-    border-bottom: 4px solid red;
 }
 
 .panel_1 {
-    border: 1px dotted black;
-    height: 200px;
-    
+    /* Min-width before overflow - 870px */
+    height: 500px;
+    width: 100%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center; 
 }
 
 .home_paragraph 
 {
     text-align: center;
-    border: 1px dotted black;
-    margin: 9px auto;
-    width: 50%;
-    height: 90%;
+    background-color: white;
+    width: 40%;
+    height: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px blue;
+    max-width: 800px;
+    min-width: 200px;
+}
+.home_paragraph h2{
+    margin: 20px;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.home_paragraph p{
+    margin: 10px 40px;
+    font-size: 18px;
+}
+
+.figure{
+    height: 95%;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    max-width: 640px;
+    min-width: 600px;
+}
+
+#State_Fair_Family{
+    height: 100%;
+    width: auto;
 }
