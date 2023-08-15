@@ -4,10 +4,6 @@
   }
 body{
     background-color: #67696e;
-    background-image: url('Images/Background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
 }
 
 ul{
@@ -54,7 +50,12 @@ h1 {
 
 .panel_1 {
     /* Min-width before overflow - 870px */
-    height: 500px;
+    background-color: #67696e;
+    background-image: url('Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 600px;
     width: 100%;
     display:flex;
     flex-direction: row-reverse;
@@ -62,7 +63,7 @@ h1 {
     align-items: center; 
 }
 
-.home_paragraph 
+/* .home_paragraph 
 {
     text-align: center;
     background-color: white;
@@ -73,10 +74,24 @@ h1 {
     box-shadow: 5px 5px 10px blue;
     max-width: 800px;
     min-width: 200px;
+} */
+
+.home_paragraph 
+{
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px blue;
+    max-width: 800px;
+    min-width: 200px;
 }
+
 .home_paragraph h2{
     margin: 20px;
-    margin-top: 20%;
+    margin-top: 15%; /*20%*/
     font-size: 30px;
 }
 
@@ -100,4 +115,59 @@ h1 {
 #State_Fair_Family{
     height: 100%;
     width: auto;
+}
+
+.panel_2{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.figure_2{
+    height: 100%;
+    width: auto;
+}
+#cheese_curds{
+    height:100%;
+    width:auto;
+}
+
+.panel_2_words{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.home_links{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+}
+.home_links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: #093acc;
+    border-radius: 15px;
+    height: 45px;
+    width: 100px;
+}
+.home_links a:hover{
+    color:black;
+}
+
+#about_button{
+    width: 130px;
 }
