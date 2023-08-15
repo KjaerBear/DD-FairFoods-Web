@@ -63,19 +63,6 @@ h1 {
     align-items: center; 
 }
 
-/* .home_paragraph 
-{
-    text-align: center;
-    background-color: white;
-    width: 40%;
-    height: 95%;
-    margin: 0 auto;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px blue;
-    max-width: 800px;
-    min-width: 200px;
-} */
-
 .home_paragraph 
 {
     text-align: center;
@@ -91,7 +78,7 @@ h1 {
 
 .home_paragraph h2{
     margin: 20px;
-    margin-top: 15%; /*20%*/
+    margin-top: 15%;
     font-size: 30px;
 }
 
@@ -108,8 +95,10 @@ h1 {
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
+}
+.panel_1 figure{
     max-width: 640px;
-    min-width: 600px;
+    min-width: 600px;   
 }
 
 #State_Fair_Family{
@@ -123,12 +112,13 @@ h1 {
     background-color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 
 }
-.figure_2{
-    height: 100%;
-    width: auto;
+.panel_2 figure{
+    margin: 0 auto;
+    width: 345px;
 }
 #cheese_curds{
     height:100%;
@@ -141,6 +131,13 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px blue;
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    margin-left: 20px;
+
 }
 .home_links{
     display:flex;
