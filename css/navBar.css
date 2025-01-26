@@ -1,0 +1,37 @@
+/* Universal Styling */
+* {
+    padding : 0px;
+    margin : 0px;
+}
+
+/* Navigation Bar */
+nav {
+    position:sticky;
+    top:0;
+    height : 100px;
+    width : 100%;
+    background-color: #0026d4;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav img {
+    height:80%;
+    width:auto;
+    margin: 0px 10px;
+}
+
+nav a {
+    text-decoration:none;
+    color:white;
+    padding: 0px 15px;
+    border-right: 1px solid white;
+}
+.currentPage {
+    color: darkgrey;
+}
+
+#lastNavItem{
+    border:none;
+}
