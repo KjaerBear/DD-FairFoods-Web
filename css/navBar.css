@@ -27,7 +27,13 @@ nav a {
     color:white;
     padding: 0px 15px;
     border-right: 1px solid white;
+    font-size:14pt;
 }
+
+nav a:hover {
+    color: darkgrey
+}
+
 .currentPage {
     color: darkgrey;
 }
